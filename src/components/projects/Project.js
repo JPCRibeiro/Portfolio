@@ -1,8 +1,8 @@
 import { Reveal } from "../Reveal";
-import { useAnimation, useInView, motion as m } from "framer-motion";
+import { useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
-import { ProjectImageBox, ProjectImage, ProjectContainerText, ProjectTitle, ProjectTitleLine, ProjectTech, ProjectDescription } from "../../styles/Projects.styled";
+import { ProjectImageBox, ProjectImage, ProjectContainerText, ProjectTitle, ProjectTitleLine, ProjectTech, ProjectDescription, ProjectImageCardBox } from "../../styles/Projects.styled";
 import ProjectModal from "./ProjectModal";
 
 export const Project = ({ modalContent, projectLink, description, imgSrc, title, code, tech }) => {
@@ -22,7 +22,7 @@ export const Project = ({ modalContent, projectLink, description, imgSrc, title,
 
   return (
     <>
-      <m.div
+      <ProjectImageCardBox
         ref={ref}
         variants={{
           hidden: { opacity: 0, y: 100 },
@@ -66,7 +66,7 @@ export const Project = ({ modalContent, projectLink, description, imgSrc, title,
             </ProjectDescription>
           </Reveal>
         </ProjectContainerText>
-      </m.div>
+      </ProjectImageCardBox>
       <ProjectModal
         modalContent={modalContent}
         projectLink={projectLink}

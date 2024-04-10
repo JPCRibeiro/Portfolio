@@ -3,7 +3,6 @@ import { motion as m } from "framer-motion";
 import { Link as LinkScroll} from 'react-scroll';
 
 export const Navbar = styled(m.nav)`
-  //background-color: #080808;
   background-color: rgb(12, 14, 19);
   height: 100svh;
   position: sticky;
@@ -92,7 +91,7 @@ export const NavLinks = styled(LinkScroll)`
   flex-shrink: 0;
   writing-mode: vertical-lr;
   font-size: 1.8rem;
-  font-weight: 200;
+  font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,8 +150,7 @@ export const Header = styled.header`
   left: 60px;
   right: 0;
   z-index: 20;
-  background: hsla(0,0%,7%,.25);
-  backdrop-filter: blur(12px);
+  background: rgb(12 14 19 / 85%);
   font-size: 2.2rem;
   font-weight: bold;
 

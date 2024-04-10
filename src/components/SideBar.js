@@ -20,8 +20,8 @@ export default function Sidebar() {
       activeClass="active"
       spy={true}
       smooth={true}
-      duration={200}
-      offset={-35}
+      duration={100}
+      offset={-10}
       >
         <Logo src={logo}></Logo>
       </LogoBox>
@@ -36,8 +36,8 @@ export default function Sidebar() {
           activeClass="active"
           spy={true}
           smooth={true}
-          duration={200}
-          offset={-35}
+          duration={100}
+          offset={-10}
         >
           Sobre
         </NavLinks>
@@ -53,8 +53,8 @@ export default function Sidebar() {
           activeClass="active"
           spy={true}
           smooth={true}
-          duration={200}
-          offset={-35}
+          duration={100}
+          offset={-10}
         >
           Projetos
         </NavLinks>
@@ -69,8 +69,8 @@ export default function Sidebar() {
           exact="true"
           spy={true}
           smooth={true}
-          duration={200}
-          offset={-35}
+          duration={100}
+          offset={-10}
         >
           Contato
         </NavLinks>

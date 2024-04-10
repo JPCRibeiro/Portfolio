@@ -22,17 +22,17 @@ export default function About() {
         <div>
           <Reveal>
             <AboutText>
-              Olá, me chamo João Pedro e seja bem-vindo à minha página pessoal, tenho 19 anos e moro no Rio de Janeiro. Gosto de futebol, música e tecnologia.
+              Meu João Pedro e seja bem-vindo ao meu portfolio, tenho 19 anos e moro no Rio de Janeiro. Programo há 2 anos e estudo diariamente para conseguir oportunidades para ingressar na área.
             </AboutText>
           </Reveal>
           <Reveal>
             <AboutText>
-              Anteriormente realizei alguns cursos de programação de Back-End, de C++ e Python.
+              Estou cursando Engenharia de Software no instituto INFNET, aprendendo Front-End e Back-End, estudando para aprender diferentes tipos de frameworks para desenvolvimentos web.
             </AboutText>
           </Reveal>
           <Reveal>
             <AboutText>
-              No momento, estou cursando Engenharia de Software, aprendendo Front-End e Back-End.
+              Tenho facilidade de aprendizado e a todo momento busco me aprimorar cada vez mais.
             </AboutText>
           </Reveal>
         </div>

@@ -20,7 +20,6 @@ export const HeroSection = styled.section`
     bottom: 0;
     left: 0;
     background: linear-gradient(transparent, rgb(12, 14, 19));
-    backdrop-filter: blur(5px);
   }
 
   &::after {
@@ -28,7 +27,7 @@ export const HeroSection = styled.section`
     position: absolute;
     z-index: -2;
     inset: 0;
-    opacity: 0.5;
+    opacity: 0.3;
     background-image:url(${backImg}); 
     background-size: cover;
     background-position: center;
@@ -68,7 +67,6 @@ export const HeroTitle = styled.h1`
 
 export const SubTitle = styled.h2`
   font-size: 3.6rem;
-  line-height: 1.1;
   margin-top: 1.6rem;
   font-weight: 200;
 

@@ -9,19 +9,21 @@ export default function Stats() {
         <Col2>
           <h4>
             <AiFillCode size="3rem" color="var(--primary-color)" />
-            <span>Tecnologias que uso</span>
+            <span>Tecnologias que utilizo</span>
           </h4>
           <Grid>
-            <Tech>ReactJS</Tech>
-            <Tech>React Native</Tech>
+            <Tech>React</Tech>
+            <Tech>Next</Tech>
+            <Tech>Angular</Tech>
+            <Tech>TypeScript</Tech>
             <Tech>JavaScript</Tech>
             <Tech>HTML</Tech>
             <Tech>CSS</Tech>
-            <Tech>Node</Tech>
-            <Tech>GitHub</Tech>
+            <Tech>Tailwind</Tech>
             <Tech>Photoshop</Tech>
-            <Tech>Git</Tech>
             <Tech>Illustrator</Tech>
+            <Tech>Node</Tech>
+            <Tech>Git</Tech>
           </Grid>
         </Col2>
       </Reveal>

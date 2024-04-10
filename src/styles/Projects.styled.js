@@ -23,13 +23,14 @@ export const Line = styled.div`
 `
 
 export const ProjectsContainer = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 3.2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+`
 
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
+export const ProjectImageCardBox = styled(m.div)`
+  width: 452px;
 `
 
 export const ProjectImageBox = styled.div`
@@ -48,11 +49,13 @@ export const ProjectImage = styled.img`
   position: absolute;
   bottom: 0;
   left: 50%;
-  translate: -50% 15%;
+  translate: -50% 6%;
   transition: 0.25s all;
   border-radius: 10px;
-  width: ${({ hovered }) => ( hovered ? "90%" : "85%" )};
+  object-fit: cover;
+  width: ${({ hovered }) => ( hovered ? "95%" : "90%" )};
   rotate: ${({ hovered }) => ( hovered ? "2deg" : "0deg" )};
+  height: ${({ hovered }) => ( hovered ? "105%" : "100%" )};
 `
 
 export const ProjectContainerText = styled.div`
@@ -120,11 +123,10 @@ export const ProjectWindow = styled.div`
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100000000;
-  height: 100vh;
+  z-index: 999;
+  height: 100%;
   padding: 4.8rem 1.2rem;
-  background: hsla(0,0%,7%,.25);
-  backdrop-filter: blur(12px);
+  background: rgb(18 18 18 / 90%);
   overflow-y: scroll;
   display: flex;
   justify-content: center;
@@ -145,6 +147,8 @@ export const ProjectWindowCard = styled(m.div)`
 
 export const WindowCardImg = styled.img`
   width: 100%;
+  object-fit: cover;
+  height: 380px;
 `
 
 export const WindowCardContent = styled.div`

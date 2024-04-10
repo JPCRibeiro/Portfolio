@@ -33,6 +33,9 @@ export const GlobalStyle = createGlobalStyle`
   img {
     user-select: none;
   }
+  p {
+    font-weight: 400 !important;
+  }
   ::selection {
     background: var(--primary-color);
     color: #111;

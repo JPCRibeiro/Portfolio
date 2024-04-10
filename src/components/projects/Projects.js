@@ -1,8 +1,9 @@
 import { Line, ProjectsSection, ProjectsTitle, ProjectsHeader, ProjectsContainer } from "../../styles/Projects.styled";
 import { Reveal } from "../Reveal";
 import { Project } from "./Project";
-import project1Img from '../../assets/portal.png';
-import project2Img from '../../assets/redesocial.png';
+import project1Img from '../../assets/portal.jpg';
+import project2Img from '../../assets/burguer.png';
+import project3Img from '../../assets/amazon2.png';
 
 export default function Projects() {
   return(
@@ -33,7 +34,7 @@ const projects = [
     imgSrc: project1Img,
     code: "https://github.com/JPCRibeiro/Portal",
     projectLink: "https://jpcribeiro.github.io/Portal/",
-    tech: ["ReactJS", "React Router", "MUI", "JSON"],
+    tech: ["React", "JavaScript", "React Router", "MUI"],
     description:
       "Plataforma online para que estudantes alcancem uma experiência educacional interativa e eficiente.",
     modalContent: (
@@ -42,29 +43,45 @@ const projects = [
           Projetado para atender às necessidades dos alunos, fornecendo recursos valiosos para auxiliar no processo de aprendizagem. 
         </p>
         <p>
-          Feito com React, utilizando um arquivo JSON externo e assim coletando os dados dos alunos, como matrícula e nome, usando React Router para a navegação do Portal.
-        </p>
-        <p>
-          Dica para logar no Portal: João Pedro, João, Pedro
+          Feito com React, utilizando um arquivo JSON externo e assim coletando os dados, como matrícula, nome e apostilas e usando React Router para a navegação do Portal.
         </p>
       </>
     ),
   },
   {
-    title: "Rede Social",
+    title: "Burgeria E-Commerce",
     imgSrc: project2Img,
-    code: "",
-    projectLink: "",
-    tech: ["ReactJS", "MUI"],
+    code: "https://github.com/JPCRibeiro/Burgeria",
+    projectLink: "https://jpcribeiro.github.io/Burgeria/",
+    tech: ["Angular", "TypeScript", "Angular Router"],
     description:
-      "Projeto de rede social projetado para conectar pessoas ao redor do mundo, semelhante ao Twitter.",
+      "E-commerce feito para o comércio de hambúrguer, para demonstrar alternativas de compras, além da presencial.",
     modalContent: (
       <>
         <p>
-          Utilizando React e objetos para renderizar o feed, MUI foi utilizado para os ícones e botões.
+          E-Commerce de uma hamburgueria com objetivo de demonstrar o comércio online de alimentos.
+        </p>
+        <p>
+          Feito com Angular, utilizando objetos para o modelo dos hambúrgers e dos pedidos e utilizei o Router do Angular para a navegação do site, junto com trocas de IDs dinamicamente.
         </p>
       </>
     ),
   },
+  {
+    title: "Amazon Clone",
+    imgSrc: project3Img,
+    code: "https://github.com/JPCRibeiro/Amazon-Clone",
+    projectLink: "https://jpcribeiro.github.io/Amazon-Clone/",
+    tech: ["Next", "JavaScript"],
+    description:
+      "Clone da homepage da Amazon, projetado para demonstrar os utensílios do site, no qual consegui refazer.",
+    modalContent: (
+      <>
+        <p>
+          Utilizando Next com sua estrutra mais recente e com reutilização de componentes, feito margem por margem para se assemelhar o máximo possível com a homepage do site original, com animações do slider e carousel semelhantes.
+        </p>
+      </>
+    ),
+  }
 ];
 
