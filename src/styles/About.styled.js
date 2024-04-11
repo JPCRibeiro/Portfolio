@@ -56,6 +56,7 @@ export const Grid = styled.div`
   flex-wrap: wrap;
   gap: 1.2rem;
   margin-bottom: 4.8rem;
+  justify-content: center;
 `
 
 export const Tech = styled.span`
@@ -73,6 +74,10 @@ export const PerfilContainer = styled.div`
   width: 50%;
   text-align: center;
   margin: 2rem auto 0;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 
   img {
     max-width: 190px;

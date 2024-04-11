@@ -30,7 +30,7 @@ export const ProjectsContainer = styled.div`
 `
 
 export const ProjectImageCardBox = styled(m.div)`
-  width: 452px;
+  max-width: 452px;
 `
 
 export const ProjectImageBox = styled.div`

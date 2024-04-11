@@ -1,12 +1,24 @@
-import { CVButton, Header, Link, Links } from "../styles/Nav.styled";
+import { CVButton, Header, Link, Links, Logo, LogoBox } from "../styles/Nav.styled";
 import { motion as m } from "framer-motion";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import cv from '../assets/CV.pdf';
+import logo from "../assets/logo-green.svg";
 
 export default function HeaderNav() {
   return (
     <Header>
       <Links>
+        <LogoBox 
+        to="inicio"
+        exact="true"
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        duration={100}
+        offset={-10}
+        >
+          <Logo src={logo}></Logo>
+        </LogoBox>
         <m.span
           initial={{ y: -30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

@@ -17,9 +17,13 @@ export const Navbar = styled(m.nav)`
   scrollbar-width: none; 
   box-shadow: 4px 0px 21px -7px rgb(0 0 0 / 64%);
 
+  @media (max-width: 768px) {
+    display: none;
+  }
+
   &::-webkit-scrollbar {
-  display: none;
-}
+    display: none;
+  }
 `
 
 export const LogoBox = styled(LinkScroll)`
@@ -150,30 +154,55 @@ export const Header = styled.header`
   left: 60px;
   right: 0;
   z-index: 20;
-  background: rgb(12 14 19 / 85%);
+  //background: rgb(12 14 19 / 85%);
+  //background: rgb(12 14 19 / 16%);
+  background: rgb(12 14 19 / 29%);
   font-size: 2.2rem;
   font-weight: bold;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
 
   @media (max-width: 768px) {
     padding: 0 2.4rem;
+    left: 0;
   }
 `
 
 export const Links = styled.div`
   display: flex;
   gap: 2rem;
-  padding-top: 10px;
+  align-items: center;
+
+  & > a {
+    margin: 0;
+    padding: 7px;
+
+    &::before, &::after {
+      display: none;
+    }
+
+    @media (min-width: 769px) {
+      display: none;
+    }
+  }
+
+
 `
 
 export const Link = styled.a`
   opacity: 0.5;
   position: relative;
   z-index: 20;
+  display: flex;
 
   &:hover {
     color: var(--primary-color);
     opacity: 1;
     transition: all 0.2s ease 0s;
+  }
+
+  @media (max-width: 769px) {
+    opacity: 1;
   }
 `
 

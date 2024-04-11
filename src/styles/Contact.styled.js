@@ -139,6 +139,10 @@ export const ContactEmail = styled.div`
   font-size: 2.2rem;
   margin: 4rem auto 0;
 
+  @media (max-width: 768px) {
+    font-size: 1.8rem;
+  }
+
   &:hover {
     opacity: 0.5;
     transition: 0s;

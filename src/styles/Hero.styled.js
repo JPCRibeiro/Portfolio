@@ -20,6 +20,8 @@ export const HeroSection = styled.section`
     bottom: 0;
     left: 0;
     background: linear-gradient(transparent, rgb(12, 14, 19));
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
   }
 
   &::after {
@@ -27,7 +29,7 @@ export const HeroSection = styled.section`
     position: absolute;
     z-index: -2;
     inset: 0;
-    opacity: 0.3;
+    opacity: 0.7;
     background-image:url(${backImg}); 
     background-size: cover;
     background-position: center;
@@ -36,12 +38,7 @@ export const HeroSection = styled.section`
 `;
 
 export const HeroContainer = styled(SectionWrapper)`
-  //margin-bottom: 9.6rem;
   margin-top: 80px;
-
-  //@media (max-width: 768px) {
-    //margin-bottom: 4.8rem;
-  //}
 `
 
 export const HeroTextBox = styled.div`
@@ -49,6 +46,10 @@ export const HeroTextBox = styled.div`
   z-index: 10;
   width: fit-content;
   margin: 4.8rem 0;
+  
+  @media (max-height: 690px) {
+    margin: 0;
+  }
 `
 
 export const HeroTitle = styled.h1`
@@ -58,6 +59,9 @@ export const HeroTitle = styled.h1`
 
   @media (max-width: 768px) {
     font-size: 5.6rem;
+  }
+  @media (max-height: 690px) {
+    font-size: 4.6rem;
   }
 
   span {

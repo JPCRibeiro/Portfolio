@@ -28,8 +28,8 @@ export default function Hero() {
               activeClass="active"
               spy={true}
               smooth={true}
-              duration={500}
-              offset={-35}
+              duration={100}
+              offset={-10}
             >
               Ver Mais
             </SeeMoreButton>

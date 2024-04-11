@@ -55,6 +55,11 @@ export const GlobalStyle = createGlobalStyle`
 export const Home = styled.div`
   display: grid;
   grid-template-columns: 60px 1fr;
+
+  @media (max-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 `
 
 export const SectionWrapper = styled.section`
@@ -67,6 +72,9 @@ export const SectionWrapper = styled.section`
 
   @media (max-width: 768px) {
     padding: 4rem;
+  }
+  @media (max-width: 480px) {
+    padding: 2rem;
   }
 `
 

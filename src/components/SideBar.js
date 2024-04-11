@@ -1,10 +1,4 @@
-import {
-  Logo,
-  LogoBox,
-  NavLinks,
-  Navbar,
-  NavLinksMotion,
-} from "../styles/Nav.styled";
+import { Logo, LogoBox, NavLinks, Navbar, NavLinksMotion } from "../styles/Nav.styled";
 import logo from "../assets/logo-green.svg";
 
 export default function Sidebar() {
