@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Portfolio/static/js/main.b6a14acb.js",
+    "main.js": "/Portfolio/static/js/main.13b2a2be.js",
     "static/media/burguer.png": "/Portfolio/static/media/burguer.8f0ad798cd0ec1b468a8.png",
     "static/media/background.jpg": "/Portfolio/static/media/background.03bebb87237aabe9a87d.jpg",
     "static/media/portal.jpg": "/Portfolio/static/media/portal.944daed5190d8435cc99.jpg",
@@ -8,9 +8,9 @@
     "static/media/profile.svg": "/Portfolio/static/media/profile.0eaff2ed30e4d9e6ecb37cc2d7ed630b.svg",
     "static/media/logo-green.svg": "/Portfolio/static/media/logo-green.eeb2eca4034308c581e84d5603ee0a1f.svg",
     "index.html": "/Portfolio/index.html",
-    "main.b6a14acb.js.map": "/Portfolio/static/js/main.b6a14acb.js.map"
+    "main.13b2a2be.js.map": "/Portfolio/static/js/main.13b2a2be.js.map"
   },
   "entrypoints": [
-    "static/js/main.b6a14acb.js"
+    "static/js/main.13b2a2be.js"
   ]
 }
