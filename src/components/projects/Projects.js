@@ -82,6 +82,22 @@ const projects = [
         </p>
       </>
     ),
+  },
+  {
+    title: "Cine World",
+    imgSrc: project3Img,
+    code: "https://github.com/JPCRibeiro/Amazon-Clone",
+    projectLink: "https://jpcribeiro.github.io/Amazon-Clone/",
+    tech: ["Next", "JavaScript"],
+    description:
+      "Clone da homepage da Amazon, projetado para demonstrar os utensílios do site, no qual consegui refazer.",
+    modalContent: (
+      <>
+        <p>
+          Utilizando Next com sua estrutra mais recente e com reutilização de componentes, feito margem por margem para se assemelhar o máximo possível com a homepage do site original, com animações do slider e carousel semelhantes.
+        </p>
+      </>
+    ),
   }
 ];
 
