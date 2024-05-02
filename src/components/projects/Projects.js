@@ -4,6 +4,7 @@ import { Project } from "./Project";
 import project1Img from '../../assets/portal.jpg';
 import project2Img from '../../assets/burguer.png';
 import project3Img from '../../assets/amazon2.png';
+import project4Img from '../../assets/cine.svg';
 
 export default function Projects() {
   return(
@@ -85,16 +86,16 @@ const projects = [
   },
   {
     title: "Cine World",
-    imgSrc: project3Img,
-    code: "https://github.com/JPCRibeiro/Amazon-Clone",
-    projectLink: "https://jpcribeiro.github.io/Amazon-Clone/",
-    tech: ["Next", "JavaScript"],
+    imgSrc: project4Img,
+    code: "https://github.com/JPCRibeiro/cine-world",
+    projectLink: "https://cine-world-jpcribeiro.vercel.app/",
+    tech: ["Next", "JavaScript", "Tailwind CSS", "External API"],
     description:
-      "Clone da homepage da Amazon, projetado para demonstrar os utensílios do site, no qual consegui refazer.",
+      "Site com informações sobre filmes, séries e atores e consultar os mais novos lançamentos de filmes e séries.",
     modalContent: (
       <>
         <p>
-          Utilizando Next com sua estrutra mais recente e com reutilização de componentes, feito margem por margem para se assemelhar o máximo possível com a homepage do site original, com animações do slider e carousel semelhantes.
+          Utilizando Next com sua estrutra mais recente e com reutilização de componentes, utilizando as rotas do Next e Tailwind CSS para estilização e uso da TMDB API para a vasta base de dados de filmes e séries, assim como a pesquisa sobre as informações.
         </p>
       </>
     ),

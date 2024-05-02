@@ -1,7 +1,7 @@
 import { CVButton, Header, Link, Links, Logo, LogoBox } from "../styles/Nav.styled";
 import { motion as m } from "framer-motion";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import cv from '../assets/CV.pdf';
+import cv from '../assets/Curriculo.pdf';
 import logo from "../assets/logo-green.svg";
 
 export default function HeaderNav() {
