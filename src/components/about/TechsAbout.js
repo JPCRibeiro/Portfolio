@@ -13,17 +13,16 @@ export default function Stats() {
           </h4>
           <Grid>
             <Tech>React</Tech>
-            <Tech>Next</Tech>
+            <Tech>Next.js</Tech>
             <Tech>Angular</Tech>
-            <Tech>TypeScript</Tech>
+            <Tech>Vue.js</Tech>
+            <Tech>TailwindCSS</Tech>
             <Tech>JavaScript</Tech>
-            <Tech>HTML</Tech>
-            <Tech>CSS</Tech>
-            <Tech>Tailwind</Tech>
-            <Tech>Photoshop</Tech>
-            <Tech>Illustrator</Tech>
-            <Tech>Node</Tech>
+            <Tech>Python</Tech>
+            <Tech>SQL</Tech>
+            <Tech>APIs</Tech>
             <Tech>Git</Tech>
+            <Tech>Node.js</Tech>
           </Grid>
         </Col2>
       </Reveal>

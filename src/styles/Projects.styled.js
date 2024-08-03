@@ -13,6 +13,8 @@ export const ProjectsHeader = styled.div`
 `
 
 export const ProjectsTitle = styled(SectionTitle)`
+  width: max-content;
+  display: flex;
 `
 
 export const Line = styled.div`
@@ -102,6 +104,8 @@ export const ProjectTech = styled.div`
 
 export const ProjectDescription = styled.p`
   font-weight: 200;
+  display: flex;
+  flex-direction: column;
 
   span {
     display: inline-block;
@@ -109,6 +113,7 @@ export const ProjectDescription = styled.p`
     font-weight: 400;
     color: var(--primary-color);
     cursor: pointer;
+    width: fit-content;
   }
 
   span:hover {

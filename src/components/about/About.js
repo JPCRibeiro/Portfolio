@@ -11,7 +11,7 @@ export default function About() {
         <h3>
           <Reveal>
             <AboutTitle>
-              Sobre
+              Sobre Mim
               <span>.</span>
             </AboutTitle>
           </Reveal>
@@ -46,7 +46,7 @@ export default function About() {
               Rio de Janeiro, Brasil
             </AboutLocal>
             <AboutText>
-              Meu foco é projetar e criar produtos, Web sites e experiências digitais para as pessoas.
+              Meu foco é projetar e criar produtos, websites e experiências digitais para as pessoas.
             </AboutText>
           </Reveal>
         </PerfilContainer>

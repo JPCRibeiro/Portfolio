@@ -13,7 +13,7 @@ export default function Hero() {
           </Reveal>
           <Reveal>
             <SubTitle>
-              Curso <span>Engenharia de Software</span>.
+              Cursando <span>Engenharia de Software</span>.
             </SubTitle>
           </Reveal>
           <Reveal>

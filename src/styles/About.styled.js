@@ -12,6 +12,8 @@ export const AboutHeader = styled.div`
 `
 
 export const AboutTitle = styled(SectionTitle)`
+  width: max-content;
+  display: flex;
 `
 
 export const Line = styled.div`
@@ -56,13 +58,12 @@ export const Grid = styled.div`
   flex-wrap: wrap;
   gap: 1.2rem;
   margin-bottom: 4.8rem;
-  justify-content: center;
 `
 
 export const Tech = styled.span`
   font-size: 1.6rem;
   background: #232323;
-  padding: 0.2rem 1rem;
+  padding: 0.2rem 13px;
   border-radius: 999px;
 `
 
