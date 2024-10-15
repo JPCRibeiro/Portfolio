@@ -79,10 +79,19 @@ export const PerfilContainer = styled.div`
   @media (max-width: 768px) {
     width: 100%;
   }
+`
+
+export const ProfilePictureContainer = styled.div`
+  width: fit-content;
+  display: flex;
+  border-radius: 999px;
+  border: 2px solid white;
+  margin: 0 auto 15px;
 
   img {
     max-width: 190px;
     width: 100%;
+    border-radius: 999px;
   }
 `
 

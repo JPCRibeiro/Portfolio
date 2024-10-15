@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { AlertError, ContactBox, ContactInput, FormButton, FormContact, FormLabel, ContactEmail, FooterLinks, FooterLink } from "../../styles/Contact.styled";
 import { Reveal } from "../Reveal";
 import emailjs from "@emailjs/browser";
-import { AiFillMail } from "react-icons/ai";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 export default function Form() {
@@ -88,7 +87,6 @@ export default function Form() {
       <Reveal width="100%">
         <a href="mailto:jopedroribeiro9@gmail.com">
           <ContactEmail>
-            <AiFillMail size="2.4rem" />
             <span>jopedroribeiro9@gmail.com</span>
           </ContactEmail>
         </a>

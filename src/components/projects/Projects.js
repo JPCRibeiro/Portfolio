@@ -5,7 +5,8 @@ import portalImg from '../../assets/portal.jpg';
 import burgeriaImg from '../../assets/burguer.png';
 import AmazonImg from '../../assets/amazon2.png';
 import CineWorldImg from '../../assets/cine.svg';
-import PromoTechImg from '../../assets/promotech.png'
+import VividWallsImg from '../../assets/vw.svg';
+import PromoTechImg from '../../assets/promotech.png';
 
 export default function Projects() {
   return(
@@ -38,16 +39,30 @@ const projects = [
     projectLink: "https://jpcribeiro-promotech.vercel.app/",
     tech: ["Vue.js", "JavaScript", "Tailwind CSS", "Python", "Flask", "MySQL", "API Externa", "AWS"],
     description:
-      "E-commerce de vendas de produtos eletrônicos e eletrodomésticos",
+      "E-commerce de vendas de produtos eletrônicos e eletrodomésticos.",
     modalContent: (
       <>
         <p>
           Website desenvolvido utilizando Python para o backend, realizando o web scrap do site: https://www.zoom.com.br para obter os preços, imagens e descrições de diversos produtos e assim essas informações são registradas ao banco de dados MySQL online utilizando o serviço RDS da AWS. Com o Flask, foi criado rotas para a API para disponibilizar os dados dos produtos para assim utilizar no frontend, hospedando a API na AWS, utilizando o serviço EC2 para o servidor Flask.
         </p>
         <p>
-          Assim, o frontend é construído com Vue.js e TailwindCSS com axios para a busca da API online hospedada na AWS: http://produtos-ambiente-env-1.eba-njrz2a2f.sa-east-1.elasticbeanstalk.com/api/produtos
+          Assim, o frontend é construído com Vue.js e TailwindCSS com axios para a busca da API online hospedada na AWS
         </p>
       </>
+    ),
+  },
+  {
+    title: "VividWalls",
+    imgSrc: VividWallsImg,
+    code: "https://github.com/JPCRibeiro/VividWalls",
+    projectLink: "https://jpcribeiro-vividwalls.vercel.app/",
+    tech: ["React.js", "JavaScript", "Tailwind CSS", "Node.js", "Express", "MySQL", "API Externa", "AWS"],
+    description:
+      "Website de wallpapers, compartilhamento de das imagens postadas pelos usuários, para publicar e baixar wallpapers.",
+    modalContent: (
+      <p>
+        Utilizando React.js, os usuários conseguem criar suas contas e assim conseguir postar seu wallpaper no site para que outros usuários consigam visualizar e baixar. As imagens são armazenadas no s3 bucket da AWS e suas informações como nome gerado e descrição são armazenados no banco online MySQL no serviço RDS da AWS. Com o node.js e express, as rotas são geradas e as consultas são feitas para a renderização dos dados da API para o frontend.
+      </p>
     ),
   },
   {

@@ -1,8 +1,8 @@
-import { AboutHeader, AboutSection, AboutText, AboutTextContainer, AboutTitle, Line, PerfilContainer, AboutLocal } from "../../styles/About.styled";
+import { AboutHeader, AboutSection, AboutText, AboutTextContainer, AboutTitle, Line, PerfilContainer, AboutLocal, ProfilePictureContainer } from "../../styles/About.styled";
 import { Reveal } from "../Reveal";
 import { GiEarthAmerica } from 'react-icons/gi';
 import Stats from "./TechsAbout";
-import profilePicture from '../../assets/profile.svg';
+import perfilPicture from '../../assets/perfil.jpg';
 
 export default function About() {
   return(
@@ -22,12 +22,12 @@ export default function About() {
         <div>
           <Reveal>
             <AboutText>
-              Meu João Pedro e seja bem-vindo ao meu portfolio, tenho 19 anos e moro no Rio de Janeiro. Programo há 2 anos e estudo diariamente para conseguir oportunidades para ingressar na área.
+              Seja bem-vindo ao meu portfolio, tenho 21 anos e moro no Rio de Janeiro. Programo há 2 anos e estudo diariamente para conseguir oportunidades para ingressar na área.
             </AboutText>
           </Reveal>
           <Reveal>
             <AboutText>
-              Estou cursando Engenharia de Software no instituto INFNET, aprendendo Front-End e Back-End, estudando para aprender diferentes tipos de frameworks para desenvolvimentos web.
+              Estou cursando Engenharia de Software no instituto INFNET, aprendendo Front-End e Back-End e gosto de conhecer diferentes tipos de frameworks para desenvolvimentos web.
             </AboutText>
           </Reveal>
           <Reveal>
@@ -40,13 +40,15 @@ export default function About() {
       </AboutTextContainer>
         <PerfilContainer>
           <Reveal>
-            <img src={profilePicture} alt="profile" />
+            <ProfilePictureContainer>
+              <img src={perfilPicture} alt="profile" />
+            </ProfilePictureContainer>
             <AboutLocal>
               <GiEarthAmerica/>
-              Rio de Janeiro, Brasil
+              Rio de Janeiro, RJ - Brasil
             </AboutLocal>
             <AboutText>
-              Meu foco é projetar e criar produtos, websites e experiências digitais para as pessoas.
+              Gosto projetar e criar produtos, websites e experiências digitais para as pessoas.
             </AboutText>
           </Reveal>
         </PerfilContainer>

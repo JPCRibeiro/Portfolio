@@ -12,17 +12,16 @@ export default function Stats() {
             <span>Tecnologias que utilizo</span>
           </h4>
           <Grid>
-            <Tech>React</Tech>
+            <Tech>React.js</Tech>
             <Tech>Next.js</Tech>
-            <Tech>Angular</Tech>
             <Tech>Vue.js</Tech>
-            <Tech>TailwindCSS</Tech>
-            <Tech>JavaScript</Tech>
-            <Tech>Python</Tech>
-            <Tech>SQL</Tech>
-            <Tech>APIs</Tech>
-            <Tech>Git</Tech>
             <Tech>Node.js</Tech>
+            <Tech>Python Flask</Tech>
+            <Tech>Java Spring</Tech>
+            <Tech>MySQL</Tech>
+            <Tech>MongoDB</Tech>
+            <Tech>AWS</Tech>
+            <Tech>Git</Tech>
           </Grid>
         </Col2>
       </Reveal>
