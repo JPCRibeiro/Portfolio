@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #03e398;
+  --background: #0c0e13;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #ebecf3;
+  background-color: var(--background);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-track {
+  background: transparent;
+} 
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 0;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-background: var(--background);
+}
+
+.hero::after {
+      content: "";
+    position: absolute;
+    z-index: -2;
+    inset: 0px;
+    opacity: 0.7;
+  background-image: url("./assets/background.jpg");
+  opacity: 0.4;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  inset: 0px;
+  background: linear-gradient(transparent, rgb(12, 14, 19));
+}
+
+img, button {
+  user-select: none;
+}
+
+.boxes::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+		box-shadow: 0 1px 4px var(--primary);
+    background: transparent;
+    transition: 3s ease-in-out;
+  }
+
+  .boxes:hover::before {
+    transition: 0s ease-in-out;
+  }
+
+  .boxes:nth-child(9n + 1):hover:before {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 3px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255);
+  }
+
+  .boxes:nth-child(9n + 2):hover:before {
+    background: var(--primary);
+    box-shadow: 0 0 3px var(--primary), 0 0 10px var(--primary);
+  }
+
+  .boxes:nth-child(9n + 3):hover:before {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 3px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255);
+  }
+
+  .boxes:nth-child(9n + 4):hover:before {
+    background: var(--primary);
+    box-shadow: 0 0 3px var(--primary), 0 0 10px var(--primary);
+  }
+
+  .boxes:nth-child(9n + 5):hover:before {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 3px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255);
+  }
+
+  .boxes:nth-child(9n + 6):hover:before {
+    background: var(--primary);
+    box-shadow: 0 0 3px var(--primary), 0 0 10px var(--primary);
+  }
+
+  .boxes:nth-child(9n + 7):hover:before {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 3px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255);
+  }
+
+  .boxes:nth-child(9n + 8):hover:before {
+    background: var(--primary);
+    box-shadow: 0 0 3px var(--primary), 0 0 10px var(--primary);
+  }
+
+  .boxes:nth-child(9n + 9):hover:before {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 3px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255);
+  }
