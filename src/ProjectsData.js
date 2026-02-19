@@ -1,5 +1,6 @@
 import visuWallImg from "./assets/visuwall.png"; 
 import vozInvisivelImg from "./assets/vozinvisivel.png"; 
+import promotechImg from "./assets/promotech.png";
 
 export const projects = [
   {
@@ -16,14 +17,11 @@ export const projects = [
     techs: ["React", "React Native", "JavaScript", "Tailwind CSS", "Node.js", "Express", "MongoDB", "AWS"],
     projectLink: "https://vozinvisivel.com.br",
   },
-]
-
-/*
-{
+  {
     name: "PromoTech",
-    imgSrc: visuWallImg,
+    imgSrc: promotechImg,
     description: "E-commerce de produtos eletrônicos e eletrodomésticos com dados obtidos via web scraping do site zoom.com.br.",
     techs: ["Vue.js", "JavaScript", "Tailwind CSS", "Python", "BeautifulSoup", "Flask", "MySQl", "AWS"],
     projectLink: "https://jpcribeiro-promotech.vercel.app/",
   },
-*/
+]
