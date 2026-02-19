@@ -3,10 +3,9 @@ import { projects } from "../ProjectsData"
 
 export default function Project() {
   return (
-    
     <>
       {projects.map((project) => (
-        <div key={project.name} className="group cursor-pointer relative bg-white/2 flex flex-col transition-all duration-200 border border-white/5 hover:border-[#03e398]/20 rounded-xl">
+        <div key={project.name} className="group relative bg-white/2 flex flex-col transition-all duration-200 border border-white/5 hover:border-[#03e398]/20 rounded-xl">
           <div>
             <img src={project.imgSrc} alt="FinTrack" className="w-full h-full object-contain p-4"/>
           </div>
@@ -18,9 +17,9 @@ export default function Project() {
                 </a>
               </div>
               <p className="text-white/40 text-sm leading-relaxed mb-4 text-justify">{project.description}</p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-3">
                 {project.techs.map((tech) => (
-                  <span key={tech} className="px-3 py-1 text-xs font-mono text-[#03e398]/70 bg-[#03e398]/5 border border-[#03e398]/10 rounded-full">{tech}</span>
+                  <span key={tech} className="px-4 py-1 text-sm bg-[#03e39811] rounded-full">{tech}</span>
                 ))}
               </div>
           </div>
