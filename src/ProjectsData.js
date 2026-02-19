@@ -1,6 +1,7 @@
 import visuWallImg from "./assets/visuwall.png"; 
 import vozInvisivelImg from "./assets/vozinvisivel.png"; 
 import promotechImg from "./assets/promotech.png";
+import burgeriaImg from "./assets/burgeria.png";
 
 export const projects = [
   {
@@ -20,8 +21,15 @@ export const projects = [
   {
     name: "PromoTech",
     imgSrc: promotechImg,
-    description: "E-commerce de produtos eletrônicos e eletrodomésticos com dados obtidos via web scraping do site zoom.com.br.",
+    description: "E-commerce de hamburgueria feito com mock api.",
     techs: ["Vue.js", "JavaScript", "Tailwind CSS", "Python", "BeautifulSoup", "Flask", "MySQl", "AWS"],
-    projectLink: "https://jpcribeiro-promotech.vercel.app/",
+    projectLink: "https://jpcribeiro-promotech.vercel.app",
+  },
+  {
+    name: "Burgeria",
+    imgSrc: burgeriaImg,
+    description: "E-commerce de produtos eletrônicos e eletrodomésticos com dados obtidos via web scraping do site zoom.com.br.",
+    techs: ["Angular", "TypeScript"],
+    projectLink: "https://jpcribeiro-burgeria.vercel.app",
   },
 ]
